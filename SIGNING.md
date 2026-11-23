@@ -7,6 +7,9 @@ sobre el artifact que produce el workflow, no en la máquina del maintainer.
 Política: todas las releases de Windows se publican firmadas. Los builds de
 prueba usan `test-signing`; los tags `v*` usan `release-signing`.
 
+Estado: solicitud enviada a SignPath Foundation el **2026-11-23**. Esperando
+revisión y aprobación.
+
 ## Cómo activarlo
 
 1. Aplicar al programa open source de SignPath:
