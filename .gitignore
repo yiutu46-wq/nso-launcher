@@ -1,0 +1,6 @@
+dist/
+build_tools/
+assets/
+brand/
+__pycache__/
+*.pyc
