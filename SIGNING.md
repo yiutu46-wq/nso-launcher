@@ -15,7 +15,7 @@ prueba usan `test-signing`; los tags `v*` usan `release-signing`.
    Licencia: MIT (`LICENSE`).
 2. Cuando aprueben, crear en SignPath:
    - Proyecto: `nso-launcher`.
-   - Artifact configuration: `launcher` (un `.exe`).
+   - Artifact configuration: `launcher` (subir `signpath/launcher.xml`; firma el `.exe` dentro del ZIP del artifact).
    - Signing policies: `test-signing` y `release-signing`.
 3. En GitHub → Settings → Secrets and variables → Actions:
    - Secret `SIGNPATH_API_TOKEN`: token de un usuario con permiso de submitter.
